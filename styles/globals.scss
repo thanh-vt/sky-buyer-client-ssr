@@ -1,0 +1,189 @@
+$pagination-bg: var(--menu-bg);
+$pagination-color: var(--menu-color);
+$pagination-border-color: var(--menu-color);
+$pagination-disabled-bg: var(--menu-bg-disabled);
+$pagination-disabled-color: var(--menu-color-disabled);
+$pagination-disabled-border-color: var(--menu-color-disabled);
+$list-group-bg: var(--list-bg);
+$list-group-color: var(--list-color);
+$list-group-border-color: var(--list-color);
+$card-border-color: var(--card-color);
+$card-bg: var(--card-bg);
+$modal-content-color: var(--card-color);
+$modal-content-bg: var(--card-bg);
+$dropdown-link-color: var(--dropdown-link-color);
+
+@import 'styles/colors';
+@import 'styles/animation';
+@import 'styles/theme';
+@import '~bootstrap/scss/bootstrap';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-container {
+  position: fixed;
+  width: 100%;
+  top: 4rem;
+  bottom: 0;
+  overflow-y: auto;
+}
+
+.App-main {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  //font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+//---
+
+html,
+body {
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  background-color: var(--body-bg-color) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+  color: var(--menu-color);
+}
+
+span {
+  color: var(--content-color);
+}
+
+p {
+  color: var(--content-color);
+}
+
+.album-cover {
+  height: 12rem !important;
+}
+
+.vg-toast-body p {
+  color: white !important;
+}
+
+.btn-unlike:hover,
+.btn-like:hover {
+  background-color: #868686;
+  border: #dc3545 !important;
+
+  span {
+    color: #dc3545 !important;
+  }
+}
+
+.btn-unlike,
+.btn-like {
+  .spinner-border {
+    color: #dc3545;
+  }
+
+  i.bi.bi-heart,
+  i.bi.bi-heart-fill {
+    color: #dc3545;
+  }
+}
+
+input {
+  color: white;
+  background-color: grey;
+}
+
+input::placeholder {
+  color: mediumspringgreen;
+}
+
+textarea {
+  background-color: black;
+}
+
+.navbar {
+  height: 4rem;
+  background: var(--nav-bg-color);
+}
+
+.navbar-brand,
+.nav-link {
+  font-family: "Constantia", cursive;
+  font-weight: 550;
+  font-stretch: condensed;
+  color: var(--nav-content-color) !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 0.2rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 0.2rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

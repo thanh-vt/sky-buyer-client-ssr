@@ -1,0 +1,141 @@
+$accent-color: #ff0000;
+$accent-color-dark: #0000ff;
+
+$toolbar-color: #eeeeee;
+$toolbar-color-dark: #232323;
+
+$toolbar-text-color: $toolbar-color-dark;
+$toolbar-text-color-dark: $toolbar-color;
+
+$card-background: #fafafa;
+$card-background-dark: #494949;
+$card-border: #000000;
+$card-border-dark: #8d8d8d;
+
+$content-color: #a60a67;
+$content-color-dark: #41ff8b;
+
+$dropdown-link-color: #123bd4;
+$dropdown-link-color-dark: #01a94d;
+
+$dragging-border: 5px dashed black;
+$dragging-border-dark: 5px dashed white;
+
+$colors: (
+  --body-bg-color: (
+    white,
+    black,
+  ),
+  --nav-content-color: (
+    black,
+    white,
+  ),
+  --nav-bg-color: (
+    rgb(34, 193, 195)
+      linear-gradient(
+        0deg,
+        rgba(34, 193, 195, 1) 0%,
+        rgba(253, 187, 45, 1) 100%
+      ),
+    rgb(131, 58, 180)
+      linear-gradient(
+        90deg,
+        rgba(131, 58, 180, 1) 0%,
+        rgba(253, 29, 29, 1) 50%,
+        rgba(252, 176, 69, 1) 100%
+      )
+      //rgb(32, 218, 119),,,,,
+  ),
+  --nav-bg-hover: (
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2),
+  ),
+  --nav-bg-color-active: (
+    rgba(228, 228, 255, 1),
+    rgba(255, 200, 91, 1),
+  ),
+  --table-color: (
+    rgba(0, 0, 0, 1),
+    rgba(255, 255, 255, 1),
+  ),
+  --table-row-title: (
+    rgba(165, 42, 42, 1),
+    rgba(240, 128, 128, 1),
+  ),
+  --table-bg-color-row-odd: (
+    rgba(227, 227, 227, 1),
+    rgba(36, 36, 36, 1),
+  ),
+  --table-row-hover-color: (
+    rgba(195, 195, 195, 1),
+    rgba(195, 195, 195, 0.5),
+  ),
+  --table-small-text-color: (
+    rgba(186, 0, 181, 1),
+    rgba(255, 255, 76, 1),
+  ),
+  --menu-color: (
+    rgba(0, 0, 0, 1),
+    rgba(255, 255, 255, 1),
+  ),
+  --menu-bg: (
+    rgba(255, 255, 255, 1),
+    rgba(0, 0, 0, 1),
+  ),
+  --menu-color-disabled: (
+    rgba(50, 50, 50, 1),
+    rgba(200, 200, 200, 1),
+  ),
+  --menu-bg-disabled: (
+    rgba(200, 200, 200, 1),
+    rgba(50, 50, 50, 1),
+  ),
+  --list-color: (
+    rgba(50, 50, 50, 1),
+    rgba(200, 200, 200, 1),
+  ),
+  --list-bg: (
+    rgba(200, 200, 200, 1),
+    rgba(50, 50, 50, 1),
+  ),
+  --card-bg: (
+    rgba(200, 200, 200, 1),
+    rgba(50, 50, 50, 1),
+  ),
+  --card-color: (
+    rgba(50, 50, 50, 1),
+    rgba(200, 200, 200, 1),
+  ),
+  --accent-color: (
+    $accent-color,
+    $accent-color-dark,
+  ),
+  --toolbar-color: (
+    $toolbar-color,
+    $toolbar-color-dark,
+  ),
+  --toolbar-text-color: (
+    $toolbar-text-color,
+    $toolbar-text-color-dark,
+  ),
+  --card-background: (
+    $card-background,
+    $card-background-dark,
+  ),
+  --card-border: (
+    $card-border,
+    $card-border-dark,
+  ),
+  --content-color: (
+    $content-color,
+    $content-color-dark,
+  ),
+  --dropdown-link-color: (
+    $dropdown-link-color,
+    $dropdown-link-color-dark,
+  ),
+  --dragging-border: (
+    $dragging-border,
+    $dragging-border-dark,
+  ),
+);
